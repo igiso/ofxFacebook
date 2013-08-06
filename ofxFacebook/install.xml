@@ -1,0 +1,29 @@
+<install>
+
+	<version>0.1</version>
+	<author>Kyriacos Kousoulides</author>
+	<url>........</url>
+
+	<requires>
+	</requires>
+
+	<add>	
+		<src>
+			<folder name="addons/ofxFacebook/src">			
+				<file>../../../addons/ofxFacebook/src/ofxFB.h</file>
+				<file>../../../addons/ofxFacebook/src/ofxFB.cpp</file>
+                <file>../../../addons/ofxFacebook/src/ofxFBview.h</file>
+				<file>../../../addons/ofxFacebook/src/ofxFBview.cpp</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxFacebook/src</path>
+		</include>
+		
+		<link>
+		</link>
+
+	</add>
+	
+</install>
