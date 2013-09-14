@@ -31,7 +31,7 @@ if it's a url link a comment , an ofImage , or even a picture url form the web!
 you can do
 
 
-Facebook.post(http://myawesomeImage.png);
+Facebook.post("http://myawesomeImage.png");
 
 
 and it will post the image from the link
@@ -54,7 +54,7 @@ Facebook.post("hey check this out",ofImage);
 or you can go over the top and post a comment a link and an image from the web in a single post!
 
 
-Facebook.post("hey I am playing this game!,"http://myawesomegame.com","http://mypic.png");
+Facebook.post("hey I am playing this game!","http://myawesomegame.com","http://mypic.png");
 
 
 
