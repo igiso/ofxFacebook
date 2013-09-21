@@ -6,7 +6,7 @@ ofxFacebook
 ofxFacebook allows easy implementation of Facebook SDK 3.0 with OF in a simple C++ environment.
 
 
-This Addon is currently compatible with IOSX, future versions of this will support other devices
+This Addon is currently compatible with IOSX, future versions will support other devices
 
 
 
@@ -16,7 +16,7 @@ Who is this addon for?
 People who want to:
 
 
-Post a comment,link,picture,ofImages on their Facebook walls from their mobile devices,
+Post a comment,link,picture,ofImages on their Facebook walls from their apple mobile devices,
 
 
 Simply by doing   Facebook.post(.......);
