@@ -69,7 +69,7 @@ it allows login-out and even modify the dialog of the process!
 Requirements:
 
 FACEBOOKSDK 3.0
-A FacebookGame account!
+A Facebook-App account!
 OF 074+
 
 See detailed guide on how to set it up in the PDF
