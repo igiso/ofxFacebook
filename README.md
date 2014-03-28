@@ -22,19 +22,19 @@ Post a comment,link,picture,ofImages on their Facebook walls from their apple mo
 Simply by doing   Facebook.post(.......);
 
 
-the post function uses a smart template algorithm that automatically detects what the object is that you are posting.
+the post function uses a smart template algorithm that automatically detects the type of object you are posting.
 
-if it's a url link a comment , an ofImage , or even a picture url form the web!
-
-
-
-you can do
+Post anything from a url link , a comment , an ofImage , or even a picture url directly form the web!
 
 
-Facebook.post("http://myawesomeImage.png");
+
+you can do:
 
 
-and it will post the image from the link
+Facebook.post("http://www.photosite.com/myawesomeImage.png");
+
+
+and it will post the image from the particular link
 
 
 or you can do:
@@ -42,16 +42,16 @@ or you can do:
 
 Facebook.post(myImage);
 
-and post an image that you are processing in OF!
+and post something that you are processing in your OF app!
 
 
-or you can be imaginative and post a comment with that image:
+you can be imaginative and post a comment with that image:
 
 
 Facebook.post("hey check this out",ofImage);
 
 
-or you can go over the top and post a comment a link and an image from the web in a single post!
+or you can go over the top and post a comment + a link + an image from the web all in a single post!
 
 
 Facebook.post("hey I am playing this game!","http://myawesomegame.com","http://mypic.png");
@@ -60,9 +60,9 @@ Facebook.post("hey I am playing this game!","http://myawesomegame.com","http://m
 
 it also allows you to know if the user actually posted or declined
 
-it allows you to check if the device is connected to the internet
+check if the device is connected to the internet
 
-it allows login-out and even modify the dialog of the process!
+also login and logout and even modify the dialog of the whole process!
 
 
 
